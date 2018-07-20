@@ -116,6 +116,8 @@ Install lnmp V1.5 completed! enjoy it.​
 - 添加虚拟主机
 
 使用命令` lnmp vhost add `添加虚拟主机目录，其中：
+
+|Q|A|
 |:-:|:-:|
 |Please enter domain(example: www.lnmp.org): |填写你的域名，同时dns解析到服务器ip|
 |Enter more domain name(example: lnmp.org .lnmp.org):|保存默认，回车即可|
@@ -125,6 +127,7 @@ Install lnmp V1.5 completed! enjoy it.​
 |Allow access logs (y/n)|y|
 |Add SSL Certificate (y/n)|y|
 |1.: Use your own SSL Certificate and Key 2.: Use Let's Encrypt to create SSL Certificate and Key|建议使用2，自动添加https证书|
+
 
 接下来它会自动开始配置，当提示此信息我们就可以进行下一步了。
 
@@ -142,6 +145,7 @@ Enable SSL: yes
 ================================================
 ```
 >如果你使用的是VPS，这里忽略
+
 
 其中由于现在我用的是树莓派，没有做内网穿透，没有公网ip，所以我得修改nginx的配置才能在局域网中访问树莓派。
 使用***find***命令搜索🔍️配置文件` find / -name nginx.conf `,搜索结果显示我的配置文件在:` /usr/local/nginx/conf/nginx.conf `,使用vi编辑` vi /usr/local/nginx/conf/nginx.conf `将其中的:
@@ -163,7 +167,9 @@ listen 80 default_server;
 其中` /home/wwwroot/share.ourfor.top `就是上文我们添加的网站目录，按照你添加的修改，使用` lnmp restart `重启***Nginx***使配置生效，那么接下来我们就可以去官网下载源码了。
 
 ---
-###开始安装
+
+### 开始安装
+
 
 - 下载源码
 ```bash
@@ -196,11 +202,10 @@ listen = 127.0.0.1:9000
 ```
 
 使用` Caddy `代替` Nginx `作为***Http***服务器(推荐)，相比之前的步骤，使用` Caddy `则相对比较简单，首先去官网下载` Caddy `，
-- [Caddy](https://caddyserver.com/)
-优势：
-- [ x ] 自动签发 HTTPS
-- [ x ] 目录浏览界面美观强大
-- [ x ] 容易上手，插件众多，官方文档介绍详细
+- [Caddy](https://caddyserver.com/)优势：
+  - [x] 自动签发 HTTPS
+  - [x] 目录浏览界面美观强大
+  - [x] 容易上手，插件众多，官方文档介绍详细
 
 这里我选择了几个实用的插件：
 1. http.cache
@@ -225,7 +230,9 @@ blog.ourfor.top:443 {
 	tls 2320813747@qq.com
 }
 ```
-####说明
+
+#### 说明
+
 - ` blog.ourfor.top:443 `域名以及端口，其中` http为80 `而` https为443 `
 - ` root /home/wwwroot/blog.ourfor.top/ `网站根目录路径
 
