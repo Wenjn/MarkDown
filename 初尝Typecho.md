@@ -7,6 +7,8 @@ categories: "Blog"
 昨天笔记本重装10.13不小心把博客的源代码删了，虽然我有保存有多个副本，但是最近的一次副本保存在机械硬盘里面的，而这机械硬盘我放在宿舍没拿回家，所以我就暂时没有去碰服务器和Coding上面的` HTML源码 `，但是我也不能闲着啊，毕竟有两个月的时间在家，除了平时的笔记push到` Github `仓库之外，我还会把一些东西记录下来，也是一个偶然的机会发现了 ***Typecho***，原本是在应用商店里面看` Rime输入法 `，无意中点进去一个博客，发现底部的博客框架是` Typecho `，点进去就来到了[Typecho官网](http://typecho.org/),反正我也闲来无事，就搭一个耍耍，顺便记录下来，可能会帮到搭建遇到问题的人。
 <!--more-->
 
+
+
 # 初识Typecho
 - 这` Typecho `究竟是什么博客框架？
 这个博客框架和` WordPress `一样属于动态博客框架，之前有看过我写的[hexo+github/coding搭建个人博客](https://ourfor.top/2018/03/06/hexo-github-coding%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)就知道这二者的区别。
@@ -251,6 +253,17 @@ blog.ourfor.top:443 {
 插件推荐：
 
 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
+
+<div class="aplayer"
+    data-id="4220599045"
+    data-server="tencent"
+    data-type="playlist">
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script>
 
 
 
