@@ -6,7 +6,7 @@ categories: "Accelerate"
 ---
 
 
-<table>
+<table class="table">
     <tr>
         <th>节次/周次</th>
         <th>星期一</th>
