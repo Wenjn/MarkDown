@@ -28,8 +28,6 @@ npm install hexo-tag-aplayer
 npm install hexo-tag-dplayer
 ```
 
-
-
 ### Audio  
 根据github项目的说明用法是将下面的代码粘贴到博客文章中你想出现音乐播放器的地方。
 
