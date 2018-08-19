@@ -105,7 +105,7 @@ categories: "Accelerate"
 ##### ..T
 }
 
-{% aplayer "123我爱你" "新乐尘符" "http://ozkg680jm.bkt.clouddn.com/%E6%96%B0%E4%B9%90%E5%B0%98%E7%AC%A6-123%E6%88%91%E7%88%B1%E4%BD%A0.flac"  "http://ozkg680jm.bkt.clouddn.com/favicon.png" "autoplay=true" %} 
+
 
 
 
