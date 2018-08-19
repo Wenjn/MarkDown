@@ -1,9 +1,0 @@
-localhost:9980 {
-	root /Volumes/Documents/博客源码/文章源码 
-	browse
-	log ../access.log
-	markdown / {
-		css themes/Clearness.css
-	}
-	filemanager
-}
