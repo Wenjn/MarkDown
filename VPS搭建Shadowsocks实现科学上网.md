@@ -85,9 +85,6 @@ wget -N --no-check-certificate https://softs.fun/Bash/ssr.sh && chmod +x ssr.sh 
 - https://doub.bid/sszhfx/
 
 
-{% aplayer "没离开过" "张韶涵" "http://ozkg680jm.bkt.clouddn.com/%E5%BC%A0%E9%9F%B6%E6%B6%B5-%E6%B2%A1%E7%A6%BB%E5%BC%80%E8%BF%87.flac"  "https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike272%2C5%2C5%2C272%2C90/sign=6ed5142a95510fb36c147fc5b85aa3f0/8326cffc1e178a8231192533fd03738da977e878.jpg" "autoplay" %}
-
-
 
 
 
