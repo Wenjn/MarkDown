@@ -272,24 +272,6 @@ cat /c/Users/zip/.ssh/id_rsa.pub
 
 附上我这篇博客文章的源码，了解一下该怎样写[Click Here](https://file.ourfor.top/ebook/hexo-github-coding%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md)
 
-<div id="app"></div>
-<!-- 加载 cplayer 脚本 -->
-<script src="https://cdn.jsdelivr.net/gh/MoePlayer/cPlayer/dist/cplayer.js"></script>
-<script>
-  let player = new cplayer({
-    element: document.getElementById('app'),
-    autoplay: true,
-    showPlaylist: true,
-    playlist: [
-      {
-        src: 'http://p923bw9fi.bkt.clouddn.com/%E5%91%A8%E4%BA%8C%E7%8F%82%20-%20%E5%91%8A%E7%99%BD%E6%B0%94%E7%90%83.wav',
-        poster: 'http://p923bw9fi.bkt.clouddn.com/%E5%91%A8%E4%BA%8C%E7%8F%82.jpg',
-        name: '告白气球(翻唱)',
-        artist: '周二珂'
-      }
-    ]
-  })
-</script>
 
 (今晚继续写)
 
