@@ -48,7 +48,6 @@ npm install hexo-tag-dplayer
 - ` width:xxx `: optional, prefix width:, player's width (default: 100%)
 - ` lrc:xxx: ` optional, prefix lrc:, LRC file url      
 
-{% aplayer "Lovey-Dovey" "T-ara" "http://ozkg680jm.bkt.clouddn.com/T-ara-Lovey-Dovey.flac"  "http://img0.c.yinyuetai.com/artist/fan/150810/0/-M-70f069427cca50778df6b121a8bf5a8a_0x0.jpg" "autoplay=true" %}   
 
 ### Video
 方法和Audio的一样也是粘贴在博客文章中。格式用法：     
@@ -80,6 +79,4 @@ other:
 {% dplayer 'url=some.mp4' "id=someid" "api=https://api.prprpr.me/dplayer/" "addition=/some.json" 'code=player.on("loadstart",function(){console.log("loadstart")})' "autoplay" %} 
 ```
 
-{% dplayer "url=http://ozkg680jm.bkt.clouddn.com/T-ara%20-%20TIAMO.mp4" "api=http://dplayer.daoapp.io" "pic=http://img0.c.yinyuetai.com/artist/fan/150810/0/-M-70f069427cca50778df6b121a8bf5a8a_0x0.jpg" "id=9E2E3368B56CDBB4" "loop=yes" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %}   
 
-{% dplayer "url=http://ozkg680jm.bkt.clouddn.com/T-ara%20-%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%86%E1%85%B5%E1%84%8E%E1%85%A7%E1%86%BB%E1%84%82%E1%85%A6%20%28So%20Crazy%29.mp4" "api=http://dplayer.daoapp.io" "pic=http://img0.c.yinyuetai.com/artist/fan/150810/0/-M-70f069427cca50778df6b121a8bf5a8a_0x0.jpg" "id=9E2E3368B56CDBB4" "loop=yes" "theme=#FADFA3" "autoplay=true" "token=tokendemo" %}
