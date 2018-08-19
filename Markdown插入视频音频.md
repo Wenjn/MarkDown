@@ -15,7 +15,6 @@ categories:
 
 每首歌的区别在于这个` id `,有些歌曲当你点击生成外链播放器时它提示` 由于版权保护，无法生成外链。 `这时候你就可以替换这个` id `来打破这个限制。    
 
-<iframe type="music" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=440241144&auto=1&height=66"></iframe>  
 
 ## 安装插件  
 Audio： [hexo-tag-aplayer](https://github.com/grzhan/hexo-tag-aplayer)
